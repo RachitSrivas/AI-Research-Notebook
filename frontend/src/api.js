@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://ai-research-notebook.onrender.com', // Update this when deploying
+    baseURL: 'https://ai-research-notebook.onrender.com/api', // Update this when deploying
 });
 
 api.interceptors.request.use((config) => {
